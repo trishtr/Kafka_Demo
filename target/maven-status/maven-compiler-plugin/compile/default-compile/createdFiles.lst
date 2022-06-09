@@ -1,0 +1,14 @@
+kafka_producers/JsonSerializer.class
+kafka_producers/Patients.class
+kafka_producers/EmailListProducer$1.class
+kafka_producers/EmailListProducer.class
+kafka_producers/ReadCSV.class
+kafka_producers/EmailList.class
+kafka_producers/CVSProducer.class
+kafka_Streams/StreamsSample.class
+GsonSerializer.class
+kafka_consumers/Consumer.class
+kafka_producers/SampleProducer.class
+kafka_consumers/EmailListConsumer.class
+Runner.class
+kafka_consumers/JsonDeserializer.class

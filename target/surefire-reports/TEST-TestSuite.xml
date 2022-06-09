@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="2.168" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/tran.trang/Desktop/Basic_kafka/Kafka_producer/target/test-classes:/Users/tran.trang/Desktop/Basic_kafka/Kafka_producer/target/classes:/Users/tran.trang/.m2/repository/org/apache/kafka/kafka-clients/3.1.0/kafka-clients-3.1.0.jar:/Users/tran.trang/.m2/repository/com/github/luben/zstd-jni/1.5.0-4/zstd-jni-1.5.0-4.jar:/Users/tran.trang/.m2/repository/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar:/Users/tran.trang/.m2/repository/org/xerial/snappy/snappy-java/1.1.8.4/snappy-java-1.1.8.4.jar:/Users/tran.trang/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/tran.trang/.m2/repository/org/apache/kafka/kafka-streams/3.2.0/kafka-streams-3.2.0.jar:/Users/tran.trang/.m2/repository/org/rocksdb/rocksdbjni/6.29.4.1/rocksdbjni-6.29.4.1.jar:/Users/tran.trang/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.6/jackson-annotations-2.12.6.jar:/Users/tran.trang/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/Users/tran.trang/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.2/log4j-core-2.17.2.jar:/Users/tran.trang/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/tran.trang/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/tran.trang/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/tran.trang/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/tran.trang/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/tran.trang/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/Users/tran.trang/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/tran.trang/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.2.2/jackson-databind-2.13.2.2.jar:/Users/tran.trang/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar:/Users/tran.trang/.m2/repository/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar:/Users/tran.trang/.m2/repository/com/opencsv/opencsv/5.6/opencsv-5.6.jar:/Users/tran.trang/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/tran.trang/.m2/repository/org/apache/commons/commons-text/1.9/commons-text-1.9.jar:/Users/tran.trang/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/tran.trang/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/tran.trang/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/tran.trang/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="America/Anchorage"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/17.0.1_1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/tran.trang/Desktop/Basic_kafka/Kafka_producer/target/surefire/surefirebooter6173455775912446717.jar /Users/tran.trang/Desktop/Basic_kafka/Kafka_producer/target/surefire 2022-06-02T14-29-13_855-jvmRun1 surefire17678490060036769233tmp surefire_08382663008248689917tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/tran.trang/Desktop/Basic_kafka/Kafka_producer/target/test-classes:/Users/tran.trang/Desktop/Basic_kafka/Kafka_producer/target/classes:/Users/tran.trang/.m2/repository/org/apache/kafka/kafka-clients/3.1.0/kafka-clients-3.1.0.jar:/Users/tran.trang/.m2/repository/com/github/luben/zstd-jni/1.5.0-4/zstd-jni-1.5.0-4.jar:/Users/tran.trang/.m2/repository/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar:/Users/tran.trang/.m2/repository/org/xerial/snappy/snappy-java/1.1.8.4/snappy-java-1.1.8.4.jar:/Users/tran.trang/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/tran.trang/.m2/repository/org/apache/kafka/kafka-streams/3.2.0/kafka-streams-3.2.0.jar:/Users/tran.trang/.m2/repository/org/rocksdb/rocksdbjni/6.29.4.1/rocksdbjni-6.29.4.1.jar:/Users/tran.trang/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.6/jackson-annotations-2.12.6.jar:/Users/tran.trang/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/Users/tran.trang/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.2/log4j-core-2.17.2.jar:/Users/tran.trang/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/tran.trang/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/tran.trang/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/tran.trang/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/tran.trang/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/tran.trang/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/Users/tran.trang/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/tran.trang/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.2.2/jackson-databind-2.13.2.2.jar:/Users/tran.trang/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar:/Users/tran.trang/.m2/repository/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar:/Users/tran.trang/.m2/repository/com/opencsv/opencsv/5.6/opencsv-5.6.jar:/Users/tran.trang/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/tran.trang/.m2/repository/org/apache/commons/commons-text/1.9/commons-text-1.9.jar:/Users/tran.trang/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/tran.trang/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/tran.trang/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/tran.trang/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/tran.trang"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/17.0.1_1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/tran.trang/Desktop/Basic_kafka/Kafka_producer"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/tran.trang/Desktop/Basic_kafka/Kafka_producer/target/surefire/surefirebooter6173455775912446717.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.1+1"/>
+    <property name="user.name" value="tran.trang"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.4"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/tran.trang/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/3c/n8q1s6r10y7cltnkpz6xyksm0000gq/T/"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="testsuite" value="src/test/resources/consumerSuite.xml"/>
+    <property name="user.dir" value="/Users/tran.trang/Desktop/Basic_kafka/Kafka_producer"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/tran.trang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="17.0.1+1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="producerTest" classname="tests.CensusTest" time="1.794">
+    <system-out><![CDATA[[INFO ] 2022-06-02 14:29:15.552 [main] Log - Print metadata in Json format
+{"event_type":"CENSUS_INFERENCE_EVENT","version":"1.0","event_id":"ec5bc5ed-4b69-4150-a7e9-7c9ea4d2e83d","event_time_ms":1637434057158,"client_id":"11d16135-8b71-46b0-bfa2-1d5f3d4f63e8","location_id":"9fec9a2a-e652-485b-9d90-f673b69ffcd6","event_source":"ML_LAMBDA_CENSUS","payload":{"eventData":{"inferenceData":[{"id":"2345"}]}}}
+[INFO ] 2022-06-02 14:29:15.584 [main] Log - Produce newcensusEvent 
+census-event   0  27  1654208956292
+[INFO ] 2022-06-02 14:29:16.361 [kafka-producer-network-thread | producer-1] Log - Checking metadata
+[INFO ] 2022-06-02 14:29:16.362 [kafka-producer-network-thread | producer-1] Log - Topic: census-event
+[INFO ] 2022-06-02 14:29:16.363 [kafka-producer-network-thread | producer-1] Log - Partition: 0
+[INFO ] 2022-06-02 14:29:16.363 [kafka-producer-network-thread | producer-1] Log - Offset: 27
+[INFO ] 2022-06-02 14:29:16.363 [kafka-producer-network-thread | producer-1] Log - Timestamp: 1654208956292
+Topic is successfully produced
+Key: null , Event_id : ec5bc5ed-4b69-4150-a7e9-7c9ea4d2e83d , Client_id : 11d16135-8b71-46b0-bfa2-1d5f3d4f63e8
+[INFO ] 2022-06-02 14:29:16.577 [main] Log - Verifying client_id is correctly produced
+[INFO ] 2022-06-02 14:29:16.578 [main] Log - Verifying event_id is correctly produced
+[INFO ] 2022-06-02 14:29:16.578 [main] Log - Convert Epoch Time to date for future reference
+20/11/2021 12:47:37
+[INFO ] 2022-06-02 14:29:16.579 [main] Log - Check event type
+[INFO ] 2022-06-02 14:29:16.579 [main] Log - if event_type = CENSUS, parse payload in consumer to json
+{"eventData":{"inferenceData":[{"id":"2345"}]}}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "KafkaConsumerTest">
+    <test name = "CensusConsumerTest">
+        <classes>
+            <class name="tests.CensusTest" />
+        </classes>
+    </test>
+
+</suite>

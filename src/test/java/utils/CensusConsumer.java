@@ -1,32 +1,38 @@
 package utils;
 
+import com.google.gson.Gson;
 import kafka_consumers.JsonDeserializer;
-import models.CensusObject.CENSUS_INFERENCE_EVENT;
+import models.CensusObject.Metadata;
+import models.CensusObject.Payload;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.apache.kafka.common.serialization.StringDeserializer;
 
+import java.io.FileWriter;
+import java.io.IOException;
 import java.time.Duration;
 import java.util.*;
 
 public class CensusConsumer {
 
-    public static ConsumerRecord<String, CENSUS_INFERENCE_EVENT> consumeEventFromTopic (String topicName){
+    public static ConsumerRecord<String, Metadata> consumeEventFromTopic (String topicName) throws IOException {
 
-            KafkaConsumer<String, CENSUS_INFERENCE_EVENT> consumer = new KafkaConsumer<>(createConsumerProperties());
+            KafkaConsumer<String, Metadata> consumer = new KafkaConsumer<>(createConsumerProperties());
             consumer.subscribe(Arrays.asList(topicName));
 
             while (true) {
-                ConsumerRecords<String, CENSUS_INFERENCE_EVENT> records = consumer.poll(Duration.ofMillis(1000));
-                for (ConsumerRecord<String, CENSUS_INFERENCE_EVENT> record : records) {
+                ConsumerRecords<String, Metadata> records = consumer.poll(Duration.ofMillis(2000));
+                for (ConsumerRecord<String, Metadata> record : records) {
                     System.out.println("Key: " + record.key()
                             + " , Event_id : " + record.value().getEvent_id()
                             + " , Client_id : " + record.value().getClient_id());
-                return record;
+                    return record;
                 }
+
             }
+
         }
 
 
@@ -38,7 +44,7 @@ public class CensusConsumer {
         props.put(ConsumerConfig.GROUP_ID_CONFIG, consumerGroup);
         props.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());
         props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, JsonDeserializer.class.getName());
-        props.put(JsonDeserializer.VALUE_CLASS_NAME_CONFIG, CENSUS_INFERENCE_EVENT.class);
+        props.put(JsonDeserializer.VALUE_CLASS_NAME_CONFIG, Metadata.class);
         props.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "earliest");
 
         return props;

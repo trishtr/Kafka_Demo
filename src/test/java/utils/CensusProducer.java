@@ -1,7 +1,7 @@
 package utils;
 
 import kafka_producers.JsonSerializer;
-import models.CensusObject.CENSUS_INFERENCE_EVENT;
+import models.CensusObject.Metadata;
 import org.apache.kafka.clients.producer.*;
 import org.apache.kafka.common.serialization.StringSerializer;
 
@@ -9,11 +9,11 @@ import java.util.Properties;
 
 public class CensusProducer {
 
-    public static void produceOnTopic(String topicName, CENSUS_INFERENCE_EVENT censusEvent){
+    public static void produceOnTopic(String topicName, Metadata censusEvent){
 
-        KafkaProducer<String, CENSUS_INFERENCE_EVENT> producer = new KafkaProducer<>(producerProperties());
+        KafkaProducer<String, Metadata> producer = new KafkaProducer<>(producerProperties());
 
-        ProducerRecord<String, CENSUS_INFERENCE_EVENT> record = new ProducerRecord<String,CENSUS_INFERENCE_EVENT>
+        ProducerRecord<String, Metadata> record = new ProducerRecord<String, Metadata>
                     (topicName, censusEvent );
 
             // Callback Producer
