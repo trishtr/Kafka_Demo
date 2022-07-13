@@ -1,0 +1,24 @@
+{  "_id": {    "$oid": "61fc798f1f54495c1ff02a2e"  },
+  "eventType": "INTERNAL",
+  "eventSubType": "PARSEDHL7",
+  "eventId": "bc7a5714-9fe0-4b2c-9073-e6445210b8ac",
+  "clientId": "CLIENTID",
+  "eventSource": "RHAPSODY",
+  "timestamp": "2022-02-04T00:55:43Z",
+  "payload": {
+    "eventData": {
+      "ADT": {
+        "type": "ADT",
+        "fields": {
+          "MessageControlID": "1255",
+          "ObservationId": "tt-0005-05",
+          "ObservationUnit": "MDC_DIM_MMHG",
+          "PatientID": "2266346720",
+          "ObservationValue": "147.93",
+          "MessageType": "ORU_R01",
+          "AdministrativeSex": "F"  }
+      }
+    }
+  },
+  "devTestDoc": true
+}

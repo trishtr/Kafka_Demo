@@ -1,0 +1,12 @@
+[INFO ] 2022-06-13 16:44:48.104 [main] Log - Print metadata in Json format
+[INFO ] 2022-06-13 16:44:48.146 [main] Log - Produce newcensusEvent 
+[INFO ] 2022-06-13 16:44:49.162 [kafka-producer-network-thread | producer-1] Log - Checking metadata
+[INFO ] 2022-06-13 16:44:49.163 [kafka-producer-network-thread | producer-1] Log - Topic: census-event-2
+[INFO ] 2022-06-13 16:44:49.163 [kafka-producer-network-thread | producer-1] Log - Partition: 0
+[INFO ] 2022-06-13 16:44:49.163 [kafka-producer-network-thread | producer-1] Log - Offset: 2
+[INFO ] 2022-06-13 16:44:49.163 [kafka-producer-network-thread | producer-1] Log - Timestamp: 1655167489019
+[INFO ] 2022-06-13 16:44:49.555 [main] Log - Verifying client_id is correctly produced
+[INFO ] 2022-06-13 16:44:49.556 [main] Log - Verifying event_id is correctly produced
+[INFO ] 2022-06-13 16:44:49.557 [main] Log - Convert Epoch Time to date for future reference
+[INFO ] 2022-06-13 16:44:49.558 [main] Log - Check event type
+[INFO ] 2022-06-13 16:44:49.558 [main] Log - if event_type = CENSUS, parse payload in consumer to json

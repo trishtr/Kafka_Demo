@@ -1,0 +1,24 @@
+[INFO ] 2022-06-15 11:16:45.370 [main] Log - Print metadata in Json format
+[INFO ] 2022-06-15 11:16:45.425 [main] Log - Produce newcensusEvent 
+[INFO ] 2022-06-15 11:16:46.407 [kafka-producer-network-thread | producer-1] Log - Checking metadata
+[INFO ] 2022-06-15 11:16:46.407 [kafka-producer-network-thread | producer-1] Log - Topic: census-event-2
+[INFO ] 2022-06-15 11:16:46.407 [kafka-producer-network-thread | producer-1] Log - Partition: 0
+[INFO ] 2022-06-15 11:16:46.408 [kafka-producer-network-thread | producer-1] Log - Offset: 3
+[INFO ] 2022-06-15 11:16:46.408 [kafka-producer-network-thread | producer-1] Log - Timestamp: 1655320606252
+[INFO ] 2022-06-15 11:16:46.784 [main] Log - Verifying client_id is correctly produced
+[INFO ] 2022-06-15 11:16:46.785 [main] Log - Verifying event_id is correctly produced
+[INFO ] 2022-06-15 11:16:46.785 [main] Log - Convert Epoch Time to date for future reference
+[INFO ] 2022-06-15 11:16:46.786 [main] Log - Check event type
+[INFO ] 2022-06-15 11:16:46.787 [main] Log - if event_type = CENSUS, parse payload in consumer to json
+[INFO ] 2022-06-15 12:18:02.278 [main] Log - Print metadata in Json format
+[INFO ] 2022-06-15 12:18:02.340 [main] Log - Produce newcensusEvent 
+[INFO ] 2022-06-15 12:18:03.241 [kafka-producer-network-thread | producer-1] Log - Checking metadata
+[INFO ] 2022-06-15 12:18:03.242 [kafka-producer-network-thread | producer-1] Log - Topic: census-event-2
+[INFO ] 2022-06-15 12:18:03.242 [kafka-producer-network-thread | producer-1] Log - Partition: 0
+[INFO ] 2022-06-15 12:18:03.242 [kafka-producer-network-thread | producer-1] Log - Offset: 4
+[INFO ] 2022-06-15 12:18:03.242 [kafka-producer-network-thread | producer-1] Log - Timestamp: 1655324283160
+[INFO ] 2022-06-15 12:18:03.461 [main] Log - Verifying client_id is correctly produced
+[INFO ] 2022-06-15 12:18:03.463 [main] Log - Verifying event_id is correctly produced
+[INFO ] 2022-06-15 12:18:03.463 [main] Log - Convert Epoch Time to date for future reference
+[INFO ] 2022-06-15 12:18:03.464 [main] Log - Check event type
+[INFO ] 2022-06-15 12:18:03.465 [main] Log - if event_type = CENSUS, parse payload in consumer to json

@@ -1,12 +1,15 @@
-package models.CensusObject;
+package parsedHL7;
 
-import java.util.List;
 import java.util.Map;
 
-public class Payload {
+public class realPayload {
 
-    String name;
-    private List<Map> payload;
+    private String name;
+    private Map payload;
+
+
+    public realPayload() {
+    }
 
     public String getName() {
         return name;
@@ -14,13 +17,15 @@ public class Payload {
 
     public void setName(String name) {
         this.name = name;
+
     }
 
-    public List<Map> getPayload() {
+    public Map getPayload() {
         return payload;
     }
 
-    public void setPayload(List<Map> payload) {
+    public void setPayload(Map payload) {
         this.payload = payload;
+
     }
 }

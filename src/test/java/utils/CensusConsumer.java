@@ -1,16 +1,13 @@
 package utils;
 
-import com.google.gson.Gson;
 import kafka_consumers.JsonDeserializer;
 import models.CensusObject.Metadata;
-import models.CensusObject.Payload;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.apache.kafka.common.serialization.StringDeserializer;
 
-import java.io.FileWriter;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.*;

@@ -17,20 +17,7 @@ public class Metadata {
 
     //List payload;
     List<Map> payload;
-    //Map<String,?> payload;
 
-    /*
-    boolean rightObject = false;
-    try {
-        Metadata data = (Metadata) payload.get("key");
-        rightObject = true;
-    } catch (Exception e) {
-        //Ko dung object class
-        rightObject = false;
-    }
-    if (rightObject) return;
- */
-    //
 
     public String getEvent_type() {
         return event_type;
