@@ -23,8 +23,8 @@ public class MessageProducer {
 
         KafkaProducer<String, MessageEnvelop> producer = new KafkaProducer<String, MessageEnvelop>(properties);
 
-        String mess1Str = "{\"eventType\":\"INTAKE1\",\"eventSubType\":\"HL7_1\",\"eventId\":\"0017e8a81bc57c3145204ca603e2227b3cfe8871\",\"clientId\":\"APPRHS\",\"eventSource\":\"RHAPSODY\",\"locationId\":\"APPRHS\",\"timestamp\":\"2022-09-16T04:09:01Z\",\"payload\":{\"eventData\":{\"HL7\":\"MSH|^~\\\\&|AFFINITY|WMC|SHIFTWIZARD|WMC|20220916000124||ADT^A03|51606578|P|2.3|\\rEVN|A03|20220916000124|\\rPV1||O|ASPA^^^WMC|3||||||ASPA||||1||||OPD|1002485451|||||||||||||||||01||||||||20220915162253|20220915235959|\\r\"}},\"log\":[{\"function\":\"scm-pipeline-raw-hl7-lambda\",\"timestamp\":\"2022-09-16T04:09:06.658962Z\",\"result\":\"OK\"}]}";
-        String mess2Str = "{\"eventType\":\"INTAKE2\",\"eventSubType\":\"HL7_2\",\"eventId\":\"0017e8a81bc57c3145204ca603e2227b3cfe8871\",\"clientId\":\"APPRHS\",\"eventSource\":\"RHAPSODY\",\"locationId\":\"APPRHS\",\"timestamp\":\"2022-09-16T04:09:01Z\",\"payload\":{\"eventData\":{\"HL7\":\"MSH|^~\\\\&|AFFINITY|WMC|SHIFTWIZARD|WMC|20220916000124||ADT^A03|51606578|P|2.3|\\rEVN|A03|20220916000124|\\rPV1||O|ASPA^^^WMC|3||||||ASPA||||1||||OPD|1002485451|||||||||||||||||01||||||||20220915162253|20220915235959|\\r\"}},\"log\":[{\"function\":\"scm-pipeline-raw-hl7-lambda\",\"timestamp\":\"2022-09-16T04:09:06.658962Z\",\"result\":\"OK\"}]}";
+        String mess1Str = "{\"eventType\":\"\",\"eventSubType\":\"\",\"eventId\":\"\",\"clientId\":\"\",\"eventSource\":\"\",\"locationId\":\"\",\"timestamp\":\"\",\"payload\":{\"\":{\"\":\"\"}},\"log\":[{\"function\":\"\",\"timestamp\":\"\",\"result\":\"\"}]}";
+        String mess2Str = "{\"eventType\":\"\",\"eventSubType\":\"\",\"eventId\":\"\",\"clientId\":\"\",\"eventSource\":\"\",\"locationId\":\"\",\"timestamp\":\"\",\"payload\":{\"\":{\"\":\"\"}},\"log\":[{\"function\":\"\",\"timestamp\":\"\",\"result\":\"\"}]}";
         Gson gson = new Gson();
         MessageEnvelop mess1 = gson.fromJson(mess1Str, MessageEnvelop.class);
         MessageEnvelop mess2 = gson.fromJson(mess2Str, MessageEnvelop.class);
