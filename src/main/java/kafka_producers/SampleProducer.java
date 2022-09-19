@@ -14,10 +14,12 @@ public class SampleProducer {
         properties.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
         properties.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
 
-        ProducerRecord producerRecord = new ProducerRecord("myFirstTopic", "name", "testing");
+
+        ProducerRecord producerRecord = new ProducerRecord("simpletopicsample", "name", "testingProducer");
 
         KafkaProducer kafkaProducer = new KafkaProducer(properties);
         kafkaProducer.send(producerRecord);
+        kafkaProducer.flush();
         kafkaProducer.close();
     }
 }

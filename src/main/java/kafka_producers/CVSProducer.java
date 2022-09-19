@@ -29,7 +29,7 @@ public class CVSProducer {
             Patients patientsRecord = (Patients) patient;
 
             ProducerRecord<String, Patients> record = new ProducerRecord<String,Patients>
-                    ("patient_info", patientsRecord.getDept(), patientsRecord );
+                    ("simpletopicsample", patientsRecord.getDept(), patientsRecord );
 
             producer.send(record);
         }

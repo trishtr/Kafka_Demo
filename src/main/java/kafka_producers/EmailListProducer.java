@@ -39,7 +39,7 @@ public class EmailListProducer {
             EmailList emailRecord = (EmailList) email;
 
             ProducerRecord<String, EmailList> record = new ProducerRecord<String,EmailList>
-                    ("EmailList", emailRecord.getEmail(), emailRecord);
+                    ("superSimpleTopic", emailRecord.getEmail(), emailRecord);
 
             // Callback Producer
             //Using methods in RecordMetadata class to retrieve metadata

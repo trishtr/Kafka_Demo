@@ -1,3 +1,5 @@
-[INFO ] 2022-07-07 14:03:54.854 [main] Log - Print metadata in Json format
-[INFO ] 2022-07-07 14:03:54.897 [main] Log - Produce newcensusEvent 
-[ERROR] 2022-07-07 14:04:55.177 [main] Log - Error Occuredorg.apache.kafka.common.errors.TimeoutException: Topic census-event-2 not present in metadata after 60000 ms.
+[INFO ] 2022-07-15 08:45:33.905 [main] Log - Cast value of eventData to Map
+[INFO ] 2022-07-15 08:45:33.912 [main] Log - Cast value of ADT  to Map
+[INFO ] 2022-07-15 08:45:33.913 [main] Log - print out value of 'type' inside ADT
+[INFO ] 2022-07-15 08:45:33.913 [main] Log - Cast value of fields to Map
+[INFO ] 2022-07-15 08:45:33.913 [main] Log - print out value of MessageControlID

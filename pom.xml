@@ -10,6 +10,7 @@
 
   <dependencies>
     <!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients -->
+    <!--Kafkaclient- needed -->
     <dependency>
       <groupId>org.apache.kafka</groupId>
       <artifactId>kafka-clients</artifactId>

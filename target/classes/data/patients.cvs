@@ -1,5 +1,5 @@
 patientid,name,dept,dateofbirth
-101,{trakdemo1},SUR1,01/01/1998
+101,trakdemo1,SUR1,01/01/1998
 102,trakdemo2,SUR2,02/02/1957
 103,trakdemo3,SUR3,03/03/1975
 104,trakdemo4,SUR4,04/04/1975

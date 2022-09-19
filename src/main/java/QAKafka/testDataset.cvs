@@ -1,0 +1,2 @@
+eventType,eventSubType,eventId,clientId,eventSource,locationId,timestamp,payload.eventData.HL7,log.function,log.timestamp,log.result
+INTAKE,HL7,0017e8a81bc57c3145204ca603e2227b3cfe8871,APPRHS,RHAPSODY,APPRHS,2022-09-16T04:09:01Z,MSH|^~\&|AFFINITY|WMC|SHIFTWIZARD|WMC|20220916000124||ADT^A03|51606578|P|2.3|EVN|A03|20220916000124|PV1||O|ASPA^^^WMC|3||||||ASPA||||1||||OPD|1002485451|||||||||||||||||01||||||||20220915162253|20220915235959|,scm-pipeline-raw-hl7-lambda,2022-09-16T04:09:06.658962Z,OK
