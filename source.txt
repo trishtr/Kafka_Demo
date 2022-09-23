@@ -1,0 +1,4 @@
+https://github.com/LGouellec/kafka-dotnet-ssl
+https://github.com/luafran/kafka-examples/blob/master/src/main/java/kafka/examples/ConsumerProducerDemo1.java
+https://www.conduktor.io/kafka/complete-kafka-producer-with-java
+selftus 
